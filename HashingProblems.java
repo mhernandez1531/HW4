@@ -56,7 +56,7 @@ class HashingProblems {
         }
 
         if (count == 0) {
-            return 0.0 / 0.0; // given
+            return 0.0 / 0.0; 
         }
         return sum / count;
     }
@@ -71,7 +71,7 @@ class HashingProblems {
 
     public ArrayList<String> odd(HashMap<Integer, String> map) {
 
-        ArrayList<String> result = new ArrayList<>(); //given
+        ArrayList<String> result = new ArrayList<>(); 
 
         /*
          * ADD YOUR CODE HERE
@@ -85,7 +85,7 @@ class HashingProblems {
             }
         }
 
-        return result; // given to me
+        return result; 
     }
 
 
@@ -145,7 +145,7 @@ class HashingProblems {
 
             set.add(number);
         }
-        return count; // given
+        return count; 
     }
 
 } /* end class HashingProblems */
