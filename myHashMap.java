@@ -246,21 +246,21 @@ class myHashMap<K,V> {
         }
 
         // Key not found, return null
-        if (head == null) { //
-            return null; // given to us only thing
+        if (head == null) { 
+            return null; 
         }
 
         // Key found, remove node
-        if (prev != null) { //
-            prev.next = head.next; //
+        if (prev != null) { 
+            prev.next = head.next; 
         } else {
             // If removing head node, update the bucket head
-            bucket.set(index, head.next); //
+            bucket.set(index, head.next); 
         }
 
         // Reduce size and return removed value
-        size--; //
-        return head.value; //
+        size--; 
+        return head.value; 
     }
 
 
@@ -447,7 +447,7 @@ class myHashMap<K,V> {
             head = head.next;
         }
         // Key not found, return null
-        return null; // we originally had return val;
+        return null; 
     }
 
     /**
@@ -485,7 +485,7 @@ class myHashMap<K,V> {
             head = head.next;
         }
 
-        return false; // already given
+        return false; 
     }
 
 
